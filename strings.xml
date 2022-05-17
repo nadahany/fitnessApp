@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">Fitness Application</string>
+    <string-array name="TrainingName">
+        <item>Push up</item>
+        <item>Reverse</item>
+        <item>Butt Kicks</item>
+        <item>Knee</item>
+        <item>strengthen</item>
+        <item>cinch</item>
+        <item>Stutter steps</item>
+        <item>Rid Of Saddlebags</item>
+        <item>Cross crunches</item>
+        <item>Back extensions</item>
+        <item>Shrimp squat</item>
+
+    </string-array>
+    <string-array name="time">
+        <item> *16 Times</item>
+        <item> 30 Seconds</item>
+        <item> 30 Seconds</item>
+        <item> *16 Times </item>
+        <item> *16 Times</item>
+        <item> *16 Times</item>
+        <item> 30 Seconds</item>
+        <item> 30 Seconds</item>
+        <item> *16 Times</item>
+        <item> *16 Times</item>
+        <item> 30 Seconds</item>
+    </string-array>
+
+    <string-array name="Description">
+        <item>Push up exercise guide with instructions, demonstration,
+            calories burned and muscles worked. Learn proper form,
+            discover all health benefits and choose
+            a workout.
+        </item>
+        <item>High knees exercise guide with instructions,
+            demonstration, calories burned and muscles worked. Learn proper form,
+            discover all health benefits and choose a workout.
+        </item>
+        <item>Butt kicks exercise guide with instructions, demonstration,
+            calories burned and muscles worked. Learn proper form,
+            discover all health benefits and choose a workout.
+        </item>
+        <item>Knee and elbow press up exercise guide with instructions,
+            demonstration, calories burned and muscles worked. Learn proper form,
+            discover all health benefits and choose a workout.
+        </item>
+        <item>
+            hamstring exercises to strengthen, tone , shape the back of your thighs!
+            The hamstrings consist of three muscles located at the back of the upper thigh.
+            These muscles are responsible for flexing the knees and assisting
+            the glutes when we move the thigh backward and extend the hip.
+        </item>
+        <item> exercises to cinch the waist and sculpt your obliques!
+            The obliques are the muscles located along the sides of the abdominal wall.
+            These muscles are responsible for side bending and waist twisting moves.
+            Working the obliques helps to sculpt and cinch the waist,
+            tones the abdominal wall and tightens the midsection.
+        </item>
+        <item>Stutter steps exercise guide with instructions, demonstration,
+            calories burned and muscles worked. Learn proper form,
+            discover all health benefits and choose a workout.
+        </item>
+        <item>Top 16 exercises for getting rid of saddlebags!
+            The outer thigh is a very common problem area for women.
+            Hormones drive the deposition of fat around the pelvis, buttocks,
+            and thighs and the fat deposits in the outer thighs, commonly know as saddlebags,
+           </item>
+        <item>Cross crunches exercise guide with instructions, demonstration,
+            calories burned and muscles worked. Learn proper form,
+            discover all health benefits and choose a workout.
+        </item>
+        <item>Back extensions exercise guide with instructions, demonstration,
+            calories burned and muscles worked. Learn proper form,
+            discover all health benefits and choose a workout.
+        </item>
+        <item>Shrimp squat exercise guide with instructions, demonstration,
+            calories burned and muscles worked. Learn proper form,
+            discover all health benefits and choose a workout.
+        </item>
+    </string-array>
+</resources>

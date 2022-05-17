@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2ba58c"
+    android:orientation="vertical"
+     >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:id="@+id/frameLayout"
+            android:layout_width="414dp"
+            android:layout_height="98dp"
+            android:background="#2ba58c"
+            app:layout_constraintBottom_toTopOf="@+id/viewpager_id"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <com.gigamole.navigationtabstrip.NavigationTabStrip
+                android:id="@+id/navigation_id"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginRight="30dp"
+                app:nts_active_color="#fff"
+                app:nts_color="#3cdedd"
+                app:nts_corners_radius="3.5dp"
+                app:nts_factor="0.8"
+                app:nts_gravity="bottom"
+                app:nts_inactive_color="#81ffffff"
+                app:nts_type="point"
+                app:nts_weight="7dp" />
+
+        </FrameLayout>
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewpager_id"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:background="#FEFDF8"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/frameLayout"
+            app:layout_constraintTop_toBottomOf="@+id/frameLayout">
+
+        </androidx.viewpager.widget.ViewPager>
+
+        <Button
+            android:id="@+id/finish"
+            android:layout_width="128dp"
+            android:layout_height="68dp"
+            android:background="@drawable/button"
+            android:backgroundTint="#fff"
+            android:text="finish"
+            android:textColor="#2ba58c"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.925"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/c"
+            android:layout_width="182dp"
+            android:layout_height="41dp"
+            android:textColor="#2ba58c"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/frameLayout" />
+
+        <TextView
+            android:id="@+id/totalcal"
+            android:layout_width="182dp"
+            android:layout_height="41dp"
+            android:textColor="#2ba58c"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/c" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>
